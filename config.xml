@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.instantapps.parklands"
+	version 	= "1.0.0">
+
+	<name>Parklands</name>
+
+	<description>
+		Parklands Primary School
+	</description>
+
+	<author href="http://www.provenweb.co.uk"
+		email="schools@provenweb.co.uk">
+		Proven Web
+	</author>
+
+	<icon src="icon.png" gap:role="default" />
+	
+	<icon src="icons/icon.png" width="57" height="57" />
+	<icon src="icons/icon-72.png" gap:platform="ios" width="72" height="72" />
+	<icon src="icons/icon_at_2x.png" width="114" height="114" />
+
+	<gap:splash src="icons/splash320.png" width="320" height="480" />
+	<gap:splash src="icons/splash640.png" width="640" height="960" />
+
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+
+	<preference name="orientation" value="portrait" />
+	<preference name="webviewbounce" value="false" />
+</widget>
